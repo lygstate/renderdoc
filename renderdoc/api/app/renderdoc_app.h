@@ -33,7 +33,7 @@
 #include <stdint.h>
 #endif
 
-#if defined(WIN32) || defined(__WIN32__) || defined(_WIN32) || defined(_MSC_VER)
+#if defined(_WIN32)
 #define RENDERDOC_CC __cdecl
 #elif defined(__linux__) || defined(__FreeBSD__) || defined(__sun__)
 #define RENDERDOC_CC
